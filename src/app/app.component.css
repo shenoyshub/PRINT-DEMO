@@ -1,0 +1,214 @@
+@media print {  
+  @page {
+ size: 816px 1056px; /* landscape */
+ /* you can also specify margins here: */
+ 
+         }
+}
+@media print {
+.pgbr {page-break-before: always;}
+ .bg_red{
+ background-color: #ea0400;
+ color: #fff;
+  }
+
+}
+table {
+border-collapse: collapse;
+width: 100%;
+}
+h1, h2, h3 ,h4, p , th ,td {
+ font-family: Roboto, 'Segoe UI', Tahoma, sans-serif !important;
+}
+.h3{
+ font-size: 12px;
+ font-weight: 700;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif !important;
+  text-transform: uppercase;
+}
+.bg_red{
+ background-color: #ff7678;
+ color: #fff;
+}
+.light_red{
+ background-color: #fcdfe3;
+}
+.demo th {
+     vertical-align: top;
+}
+.demo td {
+      border: 1px solid #fe3334;
+      font-size: 9px;
+      padding: 1px 1px 1px 1px;
+      vertical-align: top;
+
+      }
+      .bdrt0 td  {
+      border-top: none;
+ 
+      }
+      .bdrt0 th  {
+      border-top: none !important;
+ 
+      }
+      .tworow {
+       border-bottom: none !important;
+       padding: 0!important;
+       text-align:center !important;
+       font-size: 8px !important ;
+       text-align: center;
+       text-transform: uppercase;
+      }
+      .tworowbtm {
+      /* border-top: none !important;
+       border-right: none !important;*/
+       padding: 0!important;
+       font-size: 8px !important ;
+       text-align: center !important;
+       text-transform: uppercase;
+      }
+      .demo th {
+     border: 1px solid #fe3334;
+ padding: 0.5px 1px;
+ font-weight: 600;
+ font-size: 9px;
+ text-align: left;
+ text-transform: uppercase;
+      }
+
+      .demo th h5 {
+       margin: 5px 0px;
+       font-size: 15px;
+       text-align: center;
+      }
+      .demo th h6 {
+       margin: 2px 0px;
+       font-size: 13px;
+      }
+ .demo{
+   font-family: Roboto, 'Segoe UI', Tahoma, sans-serif !important;
+   padding:4px !important;
+   border-collapse: collapse;
+
+ }
+ .ftr td {
+      
+      font-size: 8px;
+      padding:0px 5px 2px 0px;
+      vertical-align: top;
+
+      }
+      .inr_tbl th{
+         border:none !important;
+      }
+      .inr_tbl td{
+         border:none !important;
+      }
+ .w_25{
+   width: 25%;
+ }
+ .w_50{
+   width: 50%;
+ }
+ .w_16{
+   width: 16.6%;
+ }
+ .w_10{
+   width: 11%;
+ }
+ .w_40{
+   width: 40%;
+ }
+ .w_30{
+   width: 29%;
+ }
+ .w_20{
+   width: 20%;
+ }
+ .w_60{
+   width: 60%;
+ }
+ .w_55{
+   width: 55%;
+ }
+ .w_22{
+   width: 22%;
+ }
+ .w_28{
+   width: 28%;
+ }
+ .text_left{
+   text-align: left;
+ }
+ .text_center{
+   text-align: center !important;
+ }
+ .text_right{
+   text-align: right;
+ }
+ .txt_lwer{
+   text-transform: lowercase !important;
+ }
+ .bdr_top{
+   border-top: none !important;
+ }
+ .vr_mid{
+   vertical-align: middle !important;
+ }
+ .vr_top{
+   vertical-align: top !important;
+ }
+ .min_width_10{
+   min-width: 60px;
+
+ }
+ .px10{
+   width: 10px;
+ }
+ .px40{
+   width: 40px; 
+ }
+ .px60{
+   width: 62px;
+ }
+
+/*tr::before {
+content: "•";  Insert content that looks like bullets 
+
+}*/
+span.day {
+ line-height: 20px; /* just to give it a height */
+ display: block;
+ color: #aaa;
+}
+
+span.contents {
+ position: relative;
+ top: -20px;
+}
+.bg_ltr_td {
+         position: relative;
+     }
+
+     .bg_ltr { 
+position: absolute;
+ color: #fcdfe3;
+ opacity: 0.8;
+ font-size: 2em;
+ font-weight: 700;
+ width: 100%;
+ pointer-events: none;
+ text-align: center;
+ z-index: 0;
+ top: -5px;
+     }
+     .watermark {
+ position: absolute;
+ color: lightgray;
+ opacity: 0.25;
+ font-size: 3em;
+ width: 100%;
+ pointer-events: none;  
+ text-align: center;
+ z-index: 0;
+}
